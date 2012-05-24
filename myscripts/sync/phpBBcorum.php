@@ -11,7 +11,7 @@
 * 4            Global_moderators
 * 5            Admin
 * 6            Bots
-* 7            Newly_registered
+* 7            Newly_registered   
 *
 * AUTH
 * auth_role_id     Description

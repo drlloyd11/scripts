@@ -119,6 +119,8 @@ foreach(glob($dirName."*.html") as $entry){
   		
   		$query = sprintf(,$queryString,
   				 $userName,mysql_real_escape_string($topic), $postTime,$count, mysql_real_escape_string ($body),"Novogate");
+  		
+  		print query."\n";
   		//,mysql_real_escape_string($fullFileName), mysql_real_escape_string ($body),mysql_real_escape_string ($body),"Novogate",1,"2",);
   	//	$query ="INSERT INTO posts (index, topic_title, user_name, postdate,origin,file_name,post_text) " ;
   		
